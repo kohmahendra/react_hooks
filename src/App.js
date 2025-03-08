@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//import UseStateExample from "./hooks/UseStateExample";
+//import UseEffectHookExample from "./hooks/UseEffectHookExample";
 
+import UseContextExample from "./hooks/UseContextExample";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid mt-5 mx-5">
+        {
+        //<UseStateExample/>
+        }
+        {
+          //<UseEffectHookExample/>
+        }
+        <UseContextExample/>
     </div>
   );
 }

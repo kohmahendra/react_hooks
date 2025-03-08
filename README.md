@@ -6,12 +6,27 @@ npx create-react-app react_hooks
 
 npm i bootstrap
 
+in index.js
+import "bootstrap/dist/css/bootstrap.min.css";
+
 # Install React router DOM
 
 npm i react-router-dom
 
 # Axios
  npm i axios
+
+# Google Fonts
+ 
+ ## Add below in index.js 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet"/> 
+ 
+ ## Add below in index.css
+    body {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
 
 # Json Server
 ***********************************************************************************************************************************************
