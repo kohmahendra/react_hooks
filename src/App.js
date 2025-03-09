@@ -2,8 +2,10 @@
 //import UseEffectHookExample from "./hooks/UseEffectHookExample";
 //import UseContextExample from "./hooks/UseContextExample";
 //import UseReducerExample from "./hooks/UseReducerExample";
+//import UseRefExample from "./hooks/UseRefExample";
+//import UseImperativeHandleExample from "./hooks/UseImperativeHandleExample";
 
-import UseRefExample from "./hooks/UseRefExample";
+import UseCallbackExample from "./hooks/UseCallbackExample";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         //<UseEffectHookExample/>
         //<UseContextExample/>
         //<UseReducerExample/>
-        <UseRefExample/>
+        //<UseRefExample/>
+        //<UseImperativeHandleExample/>
+        <UseCallbackExample/>
         }
     </div>
   );
